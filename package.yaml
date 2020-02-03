@@ -1,0 +1,61 @@
+name: aeson-object
+version: 0.1.0.0
+synopsis: TODO
+description: |
+  TODO
+
+  Please see the README on GitHub at <https://github.com/trskop/aeson-object#readme>
+category: Command Line, Editor, Text
+
+github: trskop/aeson-object
+license: BSD3
+license-file: LICENSE
+author: Peter Trško
+maintainer: peter.trsko@gmail.com
+copyright: (c) 2020 Peter Trško
+category: Text, Web, JSON
+
+extra-source-files:
+  - README.md
+  - ChangeLog.md
+
+default-extensions:
+  - BlockArguments
+  - DefaultSignatures
+  - DeriveAnyClass
+  - DeriveFoldable
+  - DeriveFunctor
+  - DeriveGeneric
+  - DeriveTraversable
+  - DerivingStrategies
+  - DuplicateRecordFields
+  - FlexibleContexts
+  - FlexibleInstances
+  - GADTs
+  - GeneralizedNewtypeDeriving
+  - InstanceSigs
+  - LambdaCase
+  - MultiParamTypeClasses
+  - MultiWayIf
+  - NamedFieldPuns
+  - OverloadedStrings
+  - RankNTypes
+  - RecordWildCards
+  - ScopedTypeVariables
+  - TupleSections
+  - TypeApplications
+
+dependencies:
+  - base
+
+  - aeson
+  - text
+  - unordered-containers
+
+ghc-options:
+  - -Wall
+  - -Wcompat
+  - -Werror
+
+library:
+  source-dirs: src
