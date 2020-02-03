@@ -1,8 +1,8 @@
 name: aeson-object
 version: 0.1.0.0
-synopsis: TODO
+synopsis: JSON serialisation and deserialisation for human-friendly APIs
 description: |
-  TODO
+  JSON serialisation and deserialisation for human-friendly APIs.
 
   Please see the README on GitHub at <https://github.com/trskop/aeson-object#readme>
 category: Command Line, Editor, Text
