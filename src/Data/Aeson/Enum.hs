@@ -1,5 +1,5 @@
 -- |
--- Module:      Data.Aeson.Object
+-- Module:      Data.Aeson.Enum
 -- Description: TODO: Module synopsis
 -- Copyright:   (c) 2020 Peter Trško
 -- License:     BSD3
@@ -9,25 +9,21 @@
 -- Portability: GHC specific language extensions; POSIX.
 --
 -- TODO: Module description.
-module Data.Aeson.Object
-    ( Object
-    , ObjectEncoding
-    , ToJsonObject(..)
+module Data.Aeson.Enum
+    ( EnumValue
+    , EnumEncoding
+    , ToJsonEnum(..)
     , toJson
     , toEncoding
-    , object
-    , pairs
-    , objectToEncoding
+    , enumValueToEncoding
     )
   where
 
-import Data.Aeson.Object.Internal
-    ( Object
-    , ObjectEncoding
-    , ToJsonObject(..)
-    , object
-    , objectToEncoding
-    , pairs
+import Data.Aeson.Enum.Internal
+    ( EnumValue
+    , EnumEncoding
+    , ToJsonEnum(..)
+    , enumValueToEncoding
     , toEncoding
     , toJson
     )
