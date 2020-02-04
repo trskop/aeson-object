@@ -5,7 +5,7 @@ description: |
   JSON serialisation and deserialisation for human-friendly APIs.
 
   Please see the README on GitHub at <https://github.com/trskop/aeson-object#readme>
-category: Command Line, Editor, Text
+category: Text, Web, JSON
 
 github: trskop/aeson-object
 license: BSD3
@@ -13,7 +13,6 @@ license-file: LICENSE
 author: Peter Trško
 maintainer: peter.trsko@gmail.com
 copyright: (c) 2020 Peter Trško
-category: Text, Web, JSON
 
 extra-source-files:
   - README.md
