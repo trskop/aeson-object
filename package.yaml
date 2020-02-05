@@ -28,11 +28,13 @@ default-extensions:
   - DeriveTraversable
   - DerivingStrategies
   - DuplicateRecordFields
+  - ExplicitNamespaces
   - FlexibleContexts
   - FlexibleInstances
   - GADTs
   - GeneralizedNewtypeDeriving
   - InstanceSigs
+  - KindSignatures
   - LambdaCase
   - MultiParamTypeClasses
   - MultiWayIf
@@ -43,6 +45,7 @@ default-extensions:
   - ScopedTypeVariables
   - TupleSections
   - TypeApplications
+  - TypeOperators
 
 dependencies:
   - base
