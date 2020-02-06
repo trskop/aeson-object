@@ -13,8 +13,8 @@
 --
 -- TODO: Module description.
 module Data.Aeson.Enum.Generic
---  (
---  )
+    ( IsEnum
+    )
   where
 
 import GHC.Generics
